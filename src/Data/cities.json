@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Logroño",
+    "connections": [
+      { "name": "Zaragoza", "price": 4 },
+      { "name": "Teruel", "price": 6 },
+      { "name": "Madrid", "price": 8 }
+    ]
+  },
+  {
+    "name": "Zaragoza",
+    "connections": [
+      { "name": "Logroño", "price": 4 },
+      { "name": "Teruel", "price": 2 },
+      { "name": "Lleida", "price": 2 }
+    ]
+  },
+  {
+    "name": "Teruel",
+    "connections": [
+      { "name": "Logroño", "price": 6 },
+      { "name": "Zaragoza", "price": 2 },
+      { "name": "Madrid", "price": 3 },
+      { "name": "Lleida", "price": 5 },
+      { "name": "Alicante", "price": 7 }
+    ]
+  },
+  {
+    "name": "Madrid",
+    "connections": [
+      { "name": "Logroño", "price": 8 },
+      { "name": "Teruel", "price": 3 }
+    ]
+  },
+  {
+    "name": "Lleida",
+    "connections": [
+      { "name": "Zaragoza", "price": 2 },
+      { "name": "Teruel", "price": 5 },
+      { "name": "Castellón", "price": 4 },
+      { "name": "Segovia", "price": 8 }
+    ]
+  },
+  {
+    "name": "Alicante",
+    "connections": [
+      { "name": "Teruel", "price": 7 },
+      { "name": "Castellón", "price": 3 },
+      { "name": "Ciudad Real", "price": 7 }
+    ]
+  },
+  {
+    "name": "Castellón",
+    "connections": [
+      { "name": "Lleida", "price": 4 },
+      { "name": "Alicante", "price": 3 },
+      { "name": "Ciudad Real", "price": 6 }
+    ]
+  },
+  {
+    "name": "Segovia",
+    "connections": [
+      { "name": "Lleida", "price": 8 },
+      { "name": "Ciudad Real", "price": 4 }
+    ]
+  },
+  {
+    "name": "Ciudad Real",
+    "connections": [
+      { "name": "Alicante", "price": 7 },
+      { "name": "Castellón", "price": 6 },
+      { "name": "Segovia", "price": 4 }
+    ]
+  }
+]
